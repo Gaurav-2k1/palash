@@ -1,4 +1,7 @@
-import { FiFacebook, FiTwitter } from 'react-icons/fi'
+import { FiFacebook } from 'react-icons/fi'
+import { FaLinkedinIn } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
+
 import img from "../assets/images/img.jpg"
 import Image from 'next/image'
 const Hero = () => {
@@ -16,8 +19,24 @@ const Hero = () => {
                     <br />
                     <span className='text-lg text-white'>FIND ME ON</span>
                     <div className='flex flex-row gap-2'>
-                        <div className='p-5 bg-slate-900 cursor-pointer rounded-lg'><FiFacebook fontSize={30} color='white' /></div>
-                        <div className='p-5 bg-slate-900 cursor-pointer rounded-lg'><FiTwitter fontSize={30} color='white' /></div>
+                        <div className='p-5 bg-slate-900 cursor-pointer rounded-lg hover:bg-slate-950'><FiFacebook fontSize={30} color='white'
+                            onClick={() => {
+                                window.open("https://www.facebook.com/palash.darokar.7", '_blank', 'noopener,noreferrer');
+
+                            }}
+                        /></div>
+                        <div className='p-5 bg-slate-900 cursor-pointer rounded-lg  hover:bg-slate-950'>
+                            <FaLinkedinIn fontSize={30} color='white'
+                                onClick={() => {
+                                    window.open("https://www.linkedin.com/in/palash-kumar-daroker-112408b1/", '_blank', 'noopener,noreferrer');
+
+                                }}
+                            /></div>
+                        <div className='p-5 bg-slate-900 cursor-pointer rounded-lg  hover:bg-slate-950'><SiGmail fontSize={30} color='white'
+                            onClick={() => {
+                                alert("mailto:palash.darokar143@gmail.com")
+
+                            }} /></div>
                     </div>
 
                 </div>

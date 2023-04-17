@@ -23,20 +23,7 @@ const Project = () => {
 }
 
 const ProjectCard = ({ id, company, url, detail, roles }) => {
-  const data = { company, url, detail, roles }
-  const uploadData = () => {
-    fetch("/api/detail", {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    }).then(res => res.json()).then(data => {
-      console.log("Success")
-    }).catch((err) => {
-      console.log('Error', err)
-    })
-  }
+  
   return (
     <div className='md:w-80  md:h-96 rounded-2xl py-4 px-3 bg-slate-700 z-0'>
       <div className='w-full h-3/5 relative group'>
