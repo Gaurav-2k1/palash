@@ -2,12 +2,12 @@
 import Link from "next/link";
 import { RxCross2 } from 'react-icons/rx'
 import Image from "next/image";
-import { useRouter } from "next/router";
-import { useEffect } from "react";
+
 
 export async function getServerSideProps(context) {
+
     let param = context.query.id
-    let data = await fetch(`http://localhost:3000/api/Details/${param}`);
+    let data = await fetch(`http://palash.vercel.app/api/Details/${param}`);
     let props = await data.json()
     return {
         props: { props }

@@ -1,5 +1,5 @@
 import { FiFacebook, FiTwitter } from 'react-icons/fi'
-import img from "../assets/images/Palash.png"
+import img from "../assets/images/img.jpg"
 import Image from 'next/image'
 const Hero = () => {
     return (
@@ -22,8 +22,8 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="w-full md:w-1/2 md:h-full flex flex-col items-center">
-                <div className='w-1/2 md:w-2/3 h-full   rounded-full  md:flex md:flex-col md:items-center '>
+            <div className="w-full md:w-1/2 md:h-full flex flex-col items-center mt-24">
+                <div className='w-1/2 md:w-2/3 h-full rounded-full  md:flex md:flex-col md:items-center '>
                     <Image src={img} className='overflow-hidden  w-full  md:w-96 md:h-96 rounded-full shadow-sm shadow-white ' alt="" />
                 </div>
             </div>

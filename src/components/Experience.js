@@ -26,7 +26,7 @@ const Experience = () => {
   }
 
   return (
-    <div className="h-full  py-5 w-full bg-slate-800 flex flex-col items-center ">
+    <div className="h-full  py-5 w-full bg-slate-800 flex flex-col items-center">
       <h1 className="text-white text-3xl text-center my-4">Experience</h1>
       <div className="w-min md:w-full  md:h-2/5 flex flex-col items-center px-2 md:px-0">
         <div className="w-min overflow-x-auto md:overflow-visible md:min-w-max gap-4 md:h-min flex md:flex-row justify-between bg-slate-600 my-2 p-2 rounded-md">
@@ -47,7 +47,7 @@ const Experience = () => {
             })
           }
         </div>
-        <div className="h-full w-full md:w-3/5 flex justify-center items-center my-10">
+        <div className="h-full w-full md:w-3/5 flex justify-center items-center my-10 overflow-hidden">
           <VerticalTimeline>
             {
               st.current.map((data, i) => {
