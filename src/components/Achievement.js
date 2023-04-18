@@ -21,7 +21,7 @@ const Achievement = () => {
         <div
             className='flex flex-col w-full
             bg-slate-800 h-max py-10 md:px-4 relative overflow-hidden '>
-            <div className='text-3xl md:my-10 text-center text-white'>
+            <div className='text-2xl md:my-10 text-center text-white'>
                 Achievement & Responsibilities
             </div>
             <Slider {...settings} className="md:px-10 mt-5 
