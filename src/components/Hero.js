@@ -1,19 +1,15 @@
 import { FiFacebook } from 'react-icons/fi'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
-import { useEffect } from 'react'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 import img from "../assets/images/img.jpg"
 import Image from 'next/image'
 const Hero = () => {
-    useEffect(() => {
-        Aos.init({ duration: 1000 })
-    }, [])
+    
     return (
         <div id='Home' className="h-full md:pt-40 w-full bg-slate-800 flex md:flex-row flex-col-reverse  items-center justify-items-center">
             <div className="flex flex-col w-full md:w-2/3 items-center">
-                <div className=" h-full md:h-3/5 flex flex-col w-4/5 gap-2" data-aos="fade-up">
+                <div className=" h-full md:h-3/5 flex flex-col w-4/5 gap-2 ">
                     <span className="md:text-4xl text-2xl text-white">Hello,I`m</span>
                     <span className="md:text-7xl text-2xl font-semibold text-white">Palash Daroker</span>
                     <span className="md:text-3xl text-2xl text-white">Power Bi Developer</span>
@@ -46,7 +42,7 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="w-full md:w-1/2 md:h-full flex flex-col items-center mt-24" data-aos="fade-up">
+            <div className="w-full md:w-1/2 md:h-full flex flex-col items-center mt-24">
                 <div className='w-1/2 md:w-2/3 h-full rounded-full  md:flex md:flex-col md:items-center '>
                     <Image src={img} className='overflow-hidden  w-full  md:w-96 md:h-96 rounded-full shadow-sm shadow-white ' alt="" />
                 </div>

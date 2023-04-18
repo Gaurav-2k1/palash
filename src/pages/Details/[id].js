@@ -1,9 +1,8 @@
+
 import Link from "next/link";
 import { RxCross2 } from 'react-icons/rx'
 import Image from "next/image";
-import { useEffect } from 'react'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 
 export async function getServerSideProps(context) {
 
@@ -16,9 +15,6 @@ export async function getServerSideProps(context) {
 
 }
 const Details = ({ props }) => {
-    useEffect(() => {
-        Aos.init({ duration: 1000 })
-    }, [])
     const { company, url, projectDetail, Roles } = props;
     return (
         <div className="w-full h-full md:h-screen bg-slate-800 flex flex-col justify-center items-center" >
@@ -38,20 +34,20 @@ const Details = ({ props }) => {
                 <div className="flex md:grid md:grid-cols-2 flex-col mt-16 p-4">
                     <div className=" w-full  flex flex-col ">
 
-                        <div className=" w-full h-full flex " data-aos="fade">
+                        <div className=" w-full h-full flex ">
                             <Image className="md:object-cover in md:pr-20 md:pb-10 object-cover w-full " src={url} alt="" />
 
                         </div>
 
 
                     </div>
-                    <div className="w-full flex md:flex-col  h-full items-start gap-5 " data-aos="fade-up">
+                    <div className="w-full flex md:flex-col  h-full items-start gap-5 ">
                         <div className="md:inline-block hidden">
                             <h1 className=" text-3xl text-white">Company :</h1>
                             <h1 className=" text-3xl text-white">{company} </h1>
                         </div>
                         <div className="px-1">
-                            <h1 className="text-2xl text-white font-semibold my-2" data-aos="fade">Project Details </h1>
+                            <h1 className="text-2xl text-white font-semibold my-2">Project Details </h1>
                             <div className="flex gap-3 flex-col">
                                 <p className="text-white text-sm md:text-base">Name : {projectDetail.name}</p>
                                 <p className="text-white text-sm md:text-base">Duration : {projectDetail.Duration}</p>
@@ -68,7 +64,7 @@ const Details = ({ props }) => {
 
                 </div>
                 <div className="px-1">
-                    <h1 className="text-2xl text-white font-semibold my-5 text-left" data-aos="fade">Roles and Responsibility </h1>
+                    <h1 className="text-2xl text-white font-semibold my-5 text-left">Roles and Responsibility </h1>
                     <ul className="pl-5">
                         {
                             Roles.map((data, i) => {
