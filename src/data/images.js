@@ -11,6 +11,14 @@ import ado from '../assets/techstack/framework/ado.png';
 import asp from '../assets/techstack/framework/asp.jpg';
 import auto from '../assets/techstack/platform/automate.jpg';
 import poweri from '../assets/techstack/platform/powerbi.webp';
+import powerbi from '../assets/techstack/tools/powerbitool.png';
+import apache from '../assets/techstack/tools/apacheno.jpg';
+import dbveawer from '../assets/techstack/tools/dbveawer.png';
+import dax from '../assets/techstack/tools/DAX.png';
+import editor from '../assets/techstack/tools/editor.png';
+import SSis from '../assets/techstack/tools/SSIS.png';
+import tableau from '../assets/techstack/tools/tableau.png';
+
 
 const stack = {
     Cloud: [
@@ -79,7 +87,37 @@ const stack = {
             name: "ASP.Net"
         },
 
-    ]
-}
+    ],
+    Tools: [
+        {
+            icon: apache,
+            name: "Apache NiFi"
+        },
+        {
+            icon: dax,
+            name: "DAX Studio"
+        },
+        {
+            icon: dbveawer,
+            name: "DB Veawer"
+        },
+        {
+            icon: editor,
+            name: "Tabular Editor"
+        },
+        {
+            icon: powerbi,
+            name: "Power BI"
+        },
+        {
+            icon: SSis,
+            name: "SSIS"
+        },
+        {
+            icon: tableau,
+            name: "Tableau"
+        } 
+    ], 
+} 
 
 export default stack;

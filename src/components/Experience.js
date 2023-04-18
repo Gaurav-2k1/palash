@@ -26,7 +26,7 @@ const Experience = () => {
   }
 
   return (
-    <div className="h-full  py-5 w-full bg-slate-800 flex flex-col items-center">
+    <div id="Experience" className="h-full  py-5 w-full bg-slate-800 flex flex-col items-center">
       <h1 className="text-white text-3xl text-center my-4">Experience</h1>
       <div className="w-min md:w-full  md:h-2/5 flex flex-col items-center px-2 md:px-0">
         <div className="w-min overflow-x-auto md:overflow-visible md:min-w-max gap-4 md:h-min flex md:flex-row justify-between bg-slate-600 my-2 p-1 rounded-md">
@@ -78,7 +78,7 @@ const TimelineComponent = ({ date, icon, title, subtitle, des }) => {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      dateClassName="text-white p-5"
+      dateClassName="text-white"
       contentStyle={{ background: '#70809080', color: '#fff' }}
 
       date={date}

@@ -6,7 +6,7 @@ import img from "../assets/images/img.jpg"
 import Image from 'next/image'
 const Hero = () => {
     return (
-        <div className="h-full md:pt-40 w-full bg-slate-800 flex md:flex-row flex-col-reverse  items-center justify-items-center">
+        <div id='Home' className="h-full md:pt-40 w-full bg-slate-800 flex md:flex-row flex-col-reverse  items-center justify-items-center">
             <div className="flex flex-col w-full md:w-2/3 items-center">
                 <div className=" h-full md:h-3/5 flex flex-col w-4/5 gap-2 ">
                     <span className="md:text-4xl text-2xl text-white">Hello,I`m</span>
