@@ -17,7 +17,7 @@ export async function getServerSideProps(context) {
 const Details = ({ props }) => {
     const { company, url, projectDetail, Roles } = props;
     return (
-        <div className="w-full h-full md:h-screen bg-slate-800 flex flex-col justify-center items-center" >
+        <div className="w-full h-full md:h-screen bg-primary-col justify-center items-center" >
             <div className="h-min px-2 py-2 md:justify-end items-center justify-items-center w-full flex flex-row justify-between bg-slate-900 fixed top-0">
 
                 <div className="md:hidden inline-block ">

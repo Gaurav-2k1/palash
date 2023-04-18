@@ -30,7 +30,7 @@ const Navbar = () => {
     return (
         <header>
             <nav className='flex flex-row w-full h-min  justify-between  md:px-0 px-3 md:justify-around items-center py-3 md:py-5 
-            bg-slate-900 m-0 fixed top-0 z-40'>
+            bg-slate-900 m-0 fixed top-0 z-40 '>
                 <div className='text-white font-semibold text-2xl font-serif '>
                     <Link href="/">Palash</Link>
                 </div>

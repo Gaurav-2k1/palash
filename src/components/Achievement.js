@@ -20,7 +20,7 @@ const Achievement = () => {
     return (
         <div
             className='flex flex-col w-full
-            bg-slate-800 h-max py-10 md:px-4 relative overflow-hidden '>
+            bg-primary h-max py-10 md:px-4 relative overflow-hidden '>
             <div className='text-2xl md:my-10 text-center text-white'>
                 Achievement & Responsibilities
             </div>
@@ -40,7 +40,7 @@ const Achievement = () => {
 const ReqBox = ({ name, title }) => {
     return (
         <div className='
-         px-3 py-2  bg-slate-950 
+         px-3 py-2  bg-secondary 
         rounded-lg text-white text-sm 
         md:text-lg 
         w-full 

@@ -15,7 +15,7 @@ export async function getServerSideProps(context) {
 }
 const Details = ({props}) => {
     return (
-        <div className="w-full h-full md:h-screen bg-slate-800 flex flex-col justify-center items-center" >
+        <div className="w-full h-full md:h-screen bg-primaryflex-col justify-center items-center" >
             {/* <div className="h-10 w-full fixed top-0">
                 <Link to="/">
                     <RxCross2 className="absolute md:right-10 md:top-5 top-0 right-0" color="white" size={40} />

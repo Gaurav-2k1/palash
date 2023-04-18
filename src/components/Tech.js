@@ -45,14 +45,14 @@ const Tech = () => {
     }
 
     return (
-        <div id="Skills" className="h-full  py-5 w-full bg-slate-800 flex flex-col items-center ">
+        <div id="Skills" className="h-full  py-5 w-full bg-primary flex-col items-center ">
             <h1 className="text-white text-3xl text-center my-4">Technical Skills</h1>
             <div className="w-full   md:h-2/5 flex flex-col items-center px-2 md:px-0">
                 <div className="w-full overflow-x-auto md:overflow-visible md:w-min gap-4 md:h-min flex md:flex-row justify-between bg-slate-600 my-2 p-1 rounded-md">
                     {
                         data.map((d, i) => {
                             return (
-                                <span key={i} className={`text-lg ${selected === d.name ? " bg-slate-700" : ""} rounded-md p-2 text-white cursor-pointer
+                                <span key={i} className={`text-lg ${selected === d.name ? " bg-tertiary" : ""} rounded-md p-2 text-white cursor-pointer
                                  flex items-center justify-items-center min-w-max`}
                                     onClick={() => {
                                         sel.current = d.name
