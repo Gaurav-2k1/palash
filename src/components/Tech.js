@@ -1,7 +1,13 @@
 import { useRef, useState } from "react"
 import stack from "../data/images"
 import Image from "next/image"
+import { useEffect } from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Tech = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
     const data = [
         {
             name: "Cloud Storage"
@@ -70,7 +76,7 @@ const Tech = () => {
                         st.current.map((ico, i) => {
                             return (
                                 <div key={i} className="flex flex-col items-center gap-4 w-min text-center
-                                cursor-pointer hover:scale-105 delay-75 ease-linear group:">
+                                cursor-pointer hover:scale-105 delay-75 ease-linear group" data-aos="fade-up">
                                     <div key={i} className="bg-slate-900  md:w-36 md:h-36 flex  items-center justify-center rounded-full md:p-2 p-1 
                                         w-28 h-28 ">
                                         <Image className="w-2/5 md:w-3/5 object-contain " src={ico.icon} alt="" />

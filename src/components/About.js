@@ -1,16 +1,22 @@
 import imga from '../assets/images/Palash.png'
 import Image from 'next/image';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return (
     <div id='About' className="h-full w-full bg-slate-800">
-      <h1 className="md:text-4xl text-2xl text-white text-center py-10 nd:py-20" >About Me</h1>
+      <h1 className="md:text-4xl text-2xl text-white text-center py-10 nd:py-20" data-aos="fade-up">About Me</h1>
       <div className="flex  flex-col md:flex-row justify-around px-2">
-        <div className="w-full md:w-1/2 md:h-full flex flex-col items-center">
+        <div className="w-full md:w-1/2 md:h-full flex flex-col items-center" data-aos="fade-left">
           <div className='w-1/2 md:w-2/3 h-full bg-slate-600  rounded-full p-2 md:-rotate-2 md:flex md:flex-col md:items-center md:p-4'>
             <Image src={imga} className='overflow-hidden  w-full rounded-full ' alt="" />
           </div>
         </div>
-        <div className='w-full md:w-1/2 flex flex-col gap-4 items-center md:items-start md:pl-10 py-5'>
+        <div className='w-full md:w-1/2 flex flex-col gap-4 items-center md:items-start md:pl-10 py-5' data-aos="fade-right">
           <h1 className='text-white text-2xl'>Palash Daroker</h1>
           <span className='text-white border-2 border-solid border-slate-500  w-full text-center md:w-max p-2 bg-slate-600 rounded-lg'>
             Power BI Developer
