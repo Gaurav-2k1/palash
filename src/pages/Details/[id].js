@@ -45,7 +45,7 @@ const Details = ({ props }) => {
 
 
                     </div>
-                    <div className="w-full flex md:flex-col  h-full items-start gap-5 " data-aos="fade">
+                    <div className="w-full flex md:flex-col  h-full items-start gap-5 " data-aos="fade-up">
                         <div className="md:inline-block hidden">
                             <h1 className=" text-3xl text-white">Company :</h1>
                             <h1 className=" text-3xl text-white">{company} </h1>
