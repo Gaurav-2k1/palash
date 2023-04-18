@@ -4,7 +4,7 @@ import { detaildata } from '@/data/other'
 const Certification = () => {
     return (
         <div className='h-full  py-5 w-full bg-slate-800 flex flex-col items-center '>
-            <div className='md:text-3xl text-white text-lg'>Certification</div>
+            <div className='text-3xl text-white '>Certification</div>
             <div className="flex flex-wrap justify-center gap-5 mt-10 md:w-4/5">
                 {
 
