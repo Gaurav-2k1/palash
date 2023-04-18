@@ -1,8 +1,17 @@
+import da from '../assets/techstack/cer/badgepower.png'
+import power from '../assets/techstack/cer/power.png'
 export const detaildata = {
     certification: [
-        "Completed Microsoft Power BI certification",
-        "AZ 70-778 Analyzing and Visualizing Data with Microsoft Power BI on 16/01/2021 and secured 790 marks.",
-        "DA -100 Power BI Data Analyst Associate on 28/03/2022 and secured 810."
+        {
+            name: "AZ 70-778 Analyzing and Visualizing Data with Microsoft Power BI ",
+            icon: power,
+            link: "https://www.credly.com/badges/dd5e7d40-6f0a-4660-a54c-ad1263dc07a9/whatsapp"
+
+        }, {
+            name: "DA -100 Power BI Data Analyst Associate"
+            , icon: da,
+            link: "https://www.credly.com/badges/3f0ac927-99a2-4655-b6de-4ee5cbb445d8/whatsapp"
+        }
     ],
     responsibilities: [
         "Responsible for Development of Interactive Reports and Dashboards for end users using Power BI",

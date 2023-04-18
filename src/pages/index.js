@@ -6,6 +6,7 @@ import Experience from '../components/Experience'
 import Navbar from "../components/Navbar"
 import Head from "next/head"
 import Achievement from "@/components/Achievement"
+import Certification from "@/components/Certification"
 
 export default function Home() {
   return (
@@ -16,9 +17,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
+      <Certification/>
       <Tech />
       <Project />
-      <Experience />
       <Achievement />
     </>
   )

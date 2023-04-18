@@ -4,27 +4,29 @@ import Image from "next/image"
 const Tech = () => {
     const data = [
         {
-            name: "Cloud Storage"
+            name: "Tools"
         },
         {
             name: "Databases"
         },
         {
-            name: "AI"
+            name: "Cloud Storage"
         },
         {
             name: "Platform"
         },
         {
+            name: "AI"
+        },
+
+        {
             name: "Framework"
         },
-        {
-            name: "Tools"
-        }
+
     ]
     const [selected, setselect] = useState(data[0].name)
     const sel = useRef(data[0].name)
-    let st = useRef(stack.Cloud);
+    let st = useRef(stack.Tools);
     const updatestack = () => {
         if (sel.current === "Cloud Storage") {
             st.current = stack.Cloud;

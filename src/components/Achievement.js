@@ -27,7 +27,6 @@ const Achievement = () => {
             <Slider {...settings} className="md:px-10 mt-5 
                 self-center flex flex-row px-2
                 justify-items-center relative w-full md:w-4/5">
-                <ReqBox name={detaildata.certification} title="Certifications" />
                 <ReqBox name={detaildata.achievement} title="Achievements" />
                 <ReqBox name={detaildata.awards} title="Awards" />
                 <ReqBox name={detaildata.responsibilities} title="Responsibilities" />

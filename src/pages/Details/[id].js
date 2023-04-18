@@ -24,7 +24,7 @@ const Details = ({ props }) => {
                     <h1 className=" text-sm text-white">Company :</h1>
                     <h1 className=" text-sm text-white">{company} </h1>
                 </div>
-                <Link href="/">
+                <Link href="/#Project">
                     <RxCross2 className="" color="white" size={40} />
 
                 </Link>
