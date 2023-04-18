@@ -22,7 +22,7 @@ const Achievement = () => {
             className='flex flex-col w-full
             bg-slate-800 h-max py-10 md:px-4 relative overflow-hidden '>
             <div className='text-3xl md:my-10 text-center text-white'>
-                Achievement And Responsibilities
+                Achievement & Responsibilities
             </div>
             <Slider {...settings} className="md:px-10 mt-5 
                 self-center flex flex-row px-2
