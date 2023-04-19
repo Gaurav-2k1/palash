@@ -78,7 +78,7 @@ const TimelineComponent = ({ date, icon, title, subtitle, des }) => {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      dateClassName="text-white"
+      dateClassName="mx-5"
       contentStyle={{ background: '#70809080', color: '#fff' }}
 
       date={date}

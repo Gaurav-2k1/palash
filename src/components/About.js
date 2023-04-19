@@ -18,7 +18,7 @@ const About = () => {
             Power BI Developer
           </span> */}
           <span className='text-white md:text-base text-sm  w-full md:w-2/3 md:min-w-full h-min text-left px-2'>
-            As a seasoned Power BI developer with 7 years of experience, I am passionate about creating data-driven solutions that empower businesses to make informed decisions. I specialize in designing custom data visualizations and analytics solutions that provide insights into complex data sets. My skills and expertise in Power BI allow me to create dynamic dashboards and reports that deliver meaningful insights to clients. I am committed to staying up-to-date with the latest trends and advancements in data visualization to ensure that my clients receive the most effective solutions. I take pride in my
+            As a seasoned Data Analyst with 7 years of experience, I am passionate about creating data-driven solutions that empower businesses to make informed decisions. I specialize in designing custom data visualizations and analytics solutions that provide insights into complex data sets. My skills and expertise in Power BI allow me to create dynamic dashboards and reports that deliver meaningful insights to clients. I am committed to staying up-to-date with the latest trends and advancements in data visualization to ensure that my clients receive the most effective solutions. I take pride in my
             ability to collaborate with clients to understand their unique needs and deliver solutions that exceed expectations.
           </span>
           <div className='text-white bg-primary md:w-min w-full text-center py-2 px-4 rounded-lg hover:bg-slate-600 delay-50 transition-all cursor-pointer
