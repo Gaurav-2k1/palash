@@ -2,7 +2,7 @@ import { FiFacebook } from 'react-icons/fi'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 
-import img from "../assets/images/Palash.png"
+import img from "../assets/images/pallavi.png"
 import Image from 'next/image'
 const Hero = () => {
 
@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="flex flex-col w-full md:w-2/3 items-center">
                 <div className=" h-full md:h-3/5 flex flex-col w-4/5 gap-2 ">
                     <span className="md:text-4xl text-2xl text-white">Hello,I`m</span>
-                    <span className="md:text-7xl text-2xl font-semibold text-white">Palash Daroker</span>
+                    <span className="md:text-7xl text-2xl font-semibold text-white">Pallavi Priya</span>
                     <span className="md:text-3xl text-2xl text-white">Data Analyst</span>
                     <br />
                     <span className="text-lg text-white">Seeking for an exciting opportunity to work as BI developer to create an
@@ -22,21 +22,21 @@ const Hero = () => {
                     <div className='flex flex-row gap-2'>
                         <div className='p-5 bg-slate-900 cursor-pointer rounded-lg hover:bg-slate-950'><FiFacebook fontSize={30} color='white'
                             onClick={() => {
-                                window.open("https://www.facebook.com/palash.darokar.7", '_blank', 'noopener,noreferrer');
+                                window.open("https://www.facebook.com/pallavi.priya.50746444", '_blank', 'noopener,noreferrer');
 
                             }}
                         /></div>
                         <div className='p-5 bg-slate-900 cursor-pointer rounded-lg  hover:bg-slate-950'>
                             <FaLinkedinIn fontSize={30} color='white'
                                 onClick={() => {
-                                    window.open("https://www.linkedin.com/in/palash-kumar-daroker-112408b1/", '_blank', 'noopener,noreferrer');
+                                    window.open("https://www.linkedin.com/in/pallavi-priya-011a4b200/", '_blank', 'noopener,noreferrer');
 
                                 }}
                             /></div>
                         <div className='p-5 bg-slate-900 cursor-pointer rounded-lg  hover:bg-slate-950'>
                             <SiGmail fontSize={30} color='white'
                                 onClick={() => {
-                                    alert("mailto:palash.darokar143@gmail.com")
+                                    alert("mailto:priyapallavi5588@gmail.com")
 
                                 }} /></div>
                     </div>

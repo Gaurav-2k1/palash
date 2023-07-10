@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 const Project = () => {
   return (
     <div id="Project" className='h-full md:p-0 px-5 w-full bg-secondary py-5  flex flex-col items-center pt-16'>
-      <h1 className="text-white text-3xl text-center my-4">Projects</h1>
+      <h1 className="text-black text-3xl text-center my-4">Projects</h1>
       <div className='w-full md:w-4/5  md:h-2/5 flex flex-col '>
         <div className="flex flex-wrap justify-center items-start gap-8 mt-10">
           {
@@ -34,7 +34,7 @@ const ProjectCard = ({ id, company, url, detail }) => {
         <div className='w-0 group-hover:w-full h-full absolute top-0 bg-secondary opacity-80 z-1 rounded-3xl grid place-items-center
         delay-250 transition-all ease-linear'>
           <span className='text-[0px] text-white  group-hover:text-lg delay-250 transition-all'>
-            <FiExternalLink className='text-[0px] text-white group-hover:text-3xl cursor-pointer hover:text-blue-400' 
+            <FiExternalLink className='text-[0px] text-white group-hover:text-3xl cursor-pointer hover:text-black'
               onClick={() => {
                 router.push(`/Details/${id}`)
               }}
@@ -46,8 +46,8 @@ const ProjectCard = ({ id, company, url, detail }) => {
       </div>
 
       <div className='flex flex-col h-1/5 justify-between mt-5'>
-        <h2 className='text-lg font-semibold text-white'>{company}</h2>
-        <span className='text-sm text-slate-300'>
+        <h2 className='text-lg font-semibold text-black'>{company}</h2>
+        <span className='text-sm text-black'>
           {detail.name}
         </span>
       </div>

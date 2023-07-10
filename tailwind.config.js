@@ -14,9 +14,9 @@ module.exports = {
       },
       colors: {
         transparent: "transparent",
-        primary: "#1E2938",
-        secondary: "#020617",
-        tertiary: "#334155"
+        primary: "#3D3D3D",
+        secondary: "#ECE9E1",
+        tertiary: "#3D3D3D70"
         // primary: "#4F4557",
         // secondary: "#393646",
         // tertiary: "#6D5D6E"

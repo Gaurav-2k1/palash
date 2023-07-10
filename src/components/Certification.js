@@ -4,7 +4,7 @@ import { detaildata } from '@/data/other'
 const Certification = () => {
     return (
         <div className='h-full  py-5 w-full bg-secondary flex flex-col items-center '>
-            <div className='text-3xl text-white '>Certification</div>
+            <div className='text-3xl text-black '>Certification</div>
             <div className="flex flex-wrap justify-center gap-5 mt-10 md:w-4/5 w-full">
                 {
 
@@ -19,7 +19,7 @@ const Certification = () => {
                                         w-28 h-28 ">
                                     <Image className="w-3/5 object-contain " src={data.icon} alt="" />
                                 </div>
-                                <span className="text-white md:w-52 w-28  text-base md:text-lg ">{data.name}</span>
+                                <span className="text-black md:w-52 w-28  text-base md:text-lg ">{data.name}</span>
 
                             </div>
 

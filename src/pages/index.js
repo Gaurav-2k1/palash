@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Palash</title>
+        <title>Pallavi</title>
       </Head>
       <Navbar />
       <Hero />

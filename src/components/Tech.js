@@ -15,13 +15,6 @@ const Tech = () => {
         {
             name: "Platform"
         },
-        {
-            name: "AI"
-        },
-
-        {
-            name: "Framework"
-        },
 
     ]
     const [selected, setselect] = useState(data[0].name)

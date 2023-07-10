@@ -1,6 +1,4 @@
-import aws from '../assets/techstack/cloud/aws.png';
 import con from '../assets/techstack/cloud/convo.jpg'
-import minio from '../assets/techstack/cloud/minio.png';
 import power from '../assets/techstack/cloud/power.jpg';
 import redshift from '../assets/techstack/database/redshift.webp';
 import sql from '../assets/techstack/database/sql.png';
@@ -12,27 +10,30 @@ import asp from '../assets/techstack/framework/asp.jpg';
 import auto from '../assets/techstack/platform/automate.jpg';
 import poweri from '../assets/techstack/platform/powerbi.webp';
 import powerbi from '../assets/techstack/tools/powerbitool.png';
-import apache from '../assets/techstack/tools/apacheno.jpg';
 import dbveawer from '../assets/techstack/tools/dbveawer.png';
 import dax from '../assets/techstack/tools/DAX.png';
 import editor from '../assets/techstack/tools/editor.png';
 import SSis from '../assets/techstack/tools/SSIS.png';
-import tableau from '../assets/techstack/tools/tableau.png';
+import azure from '../assets/techstack/cloud/azure.jpg';
+import sp from '../assets/techstack/cloud/sharepoint.jpg';
+import sapbo from '../assets/techstack/tools/sapbo.jpg';
+import spotfire from '../assets/techstack/tools/spotfire.jpg';
+import excel from '../assets/techstack/tools/msexcel.jpg';
 
 
 const stack = {
     Cloud: [
         {
-            icon: aws,
-            name: " Amazon AWS S3 Bucket"
+            icon: azure,
+            name: "Azure Blob Storage"
         },
         {
             icon: con,
             name: "Confluence"
         },
         {
-            icon: minio,
-            name: "MinIO"
+            icon: sp,
+            name: "SharePoint"
         },
         {
             icon: power,
@@ -90,22 +91,6 @@ const stack = {
     ],
     Tools: [
         {
-            icon: apache,
-            name: "Apache NiFi"
-        },
-        {
-            icon: dax,
-            name: "DAX Studio"
-        },
-        {
-            icon: dbveawer,
-            name: "DB Veawer"
-        },
-        {
-            icon: editor,
-            name: "Tabular Editor"
-        },
-        {
             icon: powerbi,
             name: "Power BI"
         },
@@ -114,10 +99,31 @@ const stack = {
             name: "SSIS"
         },
         {
-            icon: tableau,
-            name: "Tableau"
-        } 
-    ], 
-} 
+            icon: dax,
+            name: "DAX Studio"
+        },
+        {
+            icon: editor,
+            name: "Tabular Editor"
+        },
+        {
+            icon: dbveawer,
+            name: "DB Veawer"
+        },
+        {
+            icon: sapbo,
+            name: "SAP BO"
+        },
+        {
+            icon: spotfire,
+            name: "Spotfire"
+        },
+        {
+            icon: excel,
+            name: "MS Excel"
+        },
+
+    ],
+}
 
 export default stack;
