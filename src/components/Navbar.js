@@ -67,7 +67,7 @@ const Navbar = () => {
             </nav>
             {
                 show ? <div className={`flex flex-col fixed w-min h-max px-5 py-5 gap-4 z-50 top-10 right-0 
-                bg-primary delay-100 ease-in transition-all`}>
+                bg-primary opacity-95 delay-100 ease-in transition-all rounded-bl-lg`}>
                     {menu.map((data, i) => {
                         return (
                             <li key={i} className='hover:text-slate-500  delay-100
