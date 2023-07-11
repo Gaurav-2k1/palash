@@ -101,7 +101,7 @@ const stack = {
         },
         {
             icon: tableu,
-            name: "Tableu"
+            name: "Tableau"
         },
         {
             icon: SSis,

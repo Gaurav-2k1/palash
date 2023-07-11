@@ -29,7 +29,7 @@ const ExpData =
         {
             company: "Tata Consultancy Services, Pune, Maharashtra",
             designation: "System Engineer",
-            duration: " June 201 to June 2021"
+            duration: " June 2018 to June 2021"
         },
         
 

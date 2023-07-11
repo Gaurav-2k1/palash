@@ -55,15 +55,23 @@ const ReqBox = ({ name, title }) => {
             <div className='my-2 text-sm md:text-3xl font-semibold'>
                 {title}
             </div>
-            {
-                name.map((data, i) => {
-                    return (
-                        <div key={i} className='flex flex-col text-xs md:text-lg my-2'>
-                        ⚫ {data}
-                        </div>
-                    )
-                })
-            }
+            <ul className='mx-2'>
+                {
+
+                    name.map((data, i) => {
+                        return (
+                            <li key={i} className='list-disc my-2'>
+                                <div className='flex flex-col text-xs md:text-lg '>
+                                    {data}
+                                </div>
+                            </li>
+
+                        )
+                    })
+
+                }
+            </ul>
+
         </div>
     )
 }
