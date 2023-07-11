@@ -27,9 +27,9 @@ const Achievement = () => {
             <Slider {...settings} className="md:px-10 mt-5 
                 self-center flex flex-row px-2
                 justify-items-center relative w-full md:w-4/5">
-                <ReqBox name={detaildata.achievement} title="Key Strength" />
+                <ReqBox name={detaildata.achievement} title="Achievement" />
                 <ReqBox name={detaildata.awards} title="Awards" />
-                <ReqBox name={detaildata.responsibilities} title="Responsibilities" />
+                <ReqBox name={detaildata.responsibilities} title="Professional Summary" />
 
             </Slider>
 
@@ -55,7 +55,7 @@ const ReqBox = ({ name, title }) => {
             <div className='my-2 text-sm md:text-3xl font-semibold'>
                 {title}
             </div>
-            <ul className='mx-2'>
+            <ul className='mx-4'>
                 {
 
                     name.map((data, i) => {

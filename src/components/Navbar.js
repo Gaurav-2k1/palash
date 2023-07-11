@@ -30,9 +30,9 @@ const Navbar = () => {
     return (
         <header>
             <nav className='flex flex-row w-full h-min  justify-between  md:px-0 px-3 md:justify-around items-center py-3 md:py-5 
-            bg-primary m-0 fixed top-0 z-40 '>
+            bg-tertiary m-0 fixed top-0 z-40 '>
                 <div className='text-white font-semibold text-2xl font-serif '>
-                    <Link href="/">Pallavi</Link>
+                    <Link href="/">Kundan</Link>
                 </div>
                 <ul className='hidden md:flex flex-row md:w-1/3 justify-between gap-2'>
                     {
@@ -67,7 +67,7 @@ const Navbar = () => {
             </nav>
             {
                 show ? <div className={`flex flex-col fixed w-min h-max px-5 py-5 gap-4 z-50 top-10 right-0 
-                bg-primary opacity-95 delay-100 ease-in transition-all rounded-bl-lg`}>
+                bg-tertiary opacity-95 delay-100 ease-in transition-all rounded-bl-lg`}>
                     {menu.map((data, i) => {
                         return (
                             <li key={i} className='hover:text-slate-500  delay-100
@@ -81,7 +81,7 @@ const Navbar = () => {
                     <div className='text-sm w-max inline-block p-2 bg-red-600 rounded-3xl
                  text-white font-semibold cursor-pointer hover:bg-red-800 delay-150 ease-in'
                         onClick={() => {
-                            window.open("https://drive.google.com/file/d/1Kp41rl85n-cotrh-JuNn7O3q5oXo9QJs/view", '_blank', 'noopener,noreferrer');
+                            window.open("https://drive.google.com/file/d/1xXZyOjCi9xBoAb3i8w8nrAGANpro9ahB/view?usp=sharing", '_blank', 'noopener,noreferrer');
 
                         }}>
                         Download CV

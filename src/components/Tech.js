@@ -13,8 +13,8 @@ const Tech = () => {
             name: "Cloud Storage"
         },
         {
-            name: "Platform"
-        },
+            name: "language"
+        }
 
     ]
     const [selected, setselect] = useState(data[0].name)
@@ -25,12 +25,8 @@ const Tech = () => {
             st.current = stack.Cloud;
         } else if (sel.current === "Databases") {
             st.current = stack.Databases;
-        } else if (sel.current === "AI") {
-            st.current = stack.AI;
-        } else if (sel.current === "Platform") {
-            st.current = stack.Platform
-        } else if (sel.current === "Framework") {
-            st.current = stack.Framework
+        } else if (sel.current === "language") {
+            st.current = stack.language
         }
         else if (sel.current === "Tools") {
             st.current = stack.Tools

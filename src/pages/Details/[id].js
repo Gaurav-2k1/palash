@@ -7,7 +7,7 @@ import Image from "next/image";
 export async function getServerSideProps(context) {
 
     let param = context.query.id
-    let data = await fetch(`http://pallavi-priya.vercel.app/api/Details/${param}`);
+    let data = await fetch(`http://localhost:3000/api/Details/${param}`);
     let props = await data.json()
 
     return {

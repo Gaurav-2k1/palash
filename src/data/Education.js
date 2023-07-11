@@ -2,38 +2,45 @@ const ExpData =
 {
     Education: [
         {
-            school: "Asansol Eng College, WB",
-            date: "2014-2018",
-            percentage: "8.2 DGPA",
-            course: "Graduation In CSE",
+            school: "Bharath University, Chennai",
+            date: "2011-2015",
+            percentage: "82%",
+            course: "Graduation In EEE",
         },
         {
-            school: "SRM High School Khagaria, Bihar",
-            date: "2013-2014",
-            percentage: "",
+            school: "Snatak College, Islampur",
+            date: "2010-2011",
+            percentage: "64.8%",
             course: "Senior Secondary",
         },
         {
-            school: "K.V Khagaria",
-            date: "2011-2012",
-            percentage: "",
+            school: "N.S.S High School, Islampur",
+            date: "2008-2009",
+            percentage: "71%",
             course: "Higher Secondary",
         }
     ],
     Work: [
         {
-            company: " Accenture Ltd, Pune, Maharashtra",
+            company: "PricewaterhouseCoopers Accelerations Center, Bangalore",
             designation: "Senior Analyst",
             duration: " June 2021 to Present"
         },
         {
-            company: "Tata Consultancy Services, Pune, Maharashtra",
-            designation: "System Engineer",
-            duration: " June 2018 to June 2021"
+            company: "Capgemini Ltd, Mumbai, Maharashtra",
+            designation: "Consultant",
+            duration: "Jan 2020 to July 2021"
         },
-        
-
-
+        {
+            company: "Majesco Solution India Ltd, Mumbai, Maharashtra",
+            designation: "Senior Software Engineer",
+            duration: "Dec 2018 to Dec 2019"
+        },
+        {
+            company: "Hexaware Technologies Ltd, Mumbai, Maharashtra",
+            designation: "Associate Software Engineer",
+            duration: "Dec 2015 to Dec 2018"
+        },
     ]
 }
 

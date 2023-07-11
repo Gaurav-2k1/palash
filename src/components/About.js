@@ -18,11 +18,16 @@ const About = () => {
             Power BI Developer
           </span> */}
           <span className='text-black md:text-base text-sm  w-full md:w-2/3 md:min-w-full h-min text-left px-2'>
-            I am a skilled BI Developer with 5+ years of experience in the industry.I am proficient in Power BI, Tableau, SQL and other BI tools. I have a strong understanding of data modelling, DAX and data visualization. And also experienced in gateway configuration & scheduling and highly motivated and results-oriented individual with a proven track record of success. I am a team player with excellent communication and problem-solving skills
-          </span>
+            I am a highly experienced BI Developer with over 7 years of experience in the IT industry. I have a strong understanding of data analytics, ETL, and data warehousing concepts. I am proficient in Power BI, SSIS, Alteryx, and other BI tools. I am also skilled in SQL, DAX, and other data analysis languages.
+
+            I am a highly motivated and results-oriented individual with a proven track record of success in delivering projects on time and within budget. I am also a team player and I am able to work effectively in a fast-paced environment.
+
+            I am confident that I have the skills and experience necessary to be successful in your company. I am eager to learn new things and I am always looking for ways to improve my skills. I am also a quick learner and I am able to adapt to new situations quickly.
+
+            I am a valuable asset to any team and I am confident that I can make a significant contribution to your company. I am eager to discuss my qualifications in more detail and I look forward to hearing from you soon.          </span>
           <div className='text-white bg-primary md:w-min w-full text-center py-2 px-4 rounded-lg hover:bg-slate-600 delay-50 transition-all cursor-pointer
             ' onClick={() => {
-              window.open("https://drive.google.com/file/d/1i_pGpJZFXfLsxn-fjTlnkkz4zCzdIA4T/view?usp=sharing", '_blank', 'noopener,noreferrer');
+              window.open("https://drive.google.com/file/d/1xXZyOjCi9xBoAb3i8w8nrAGANpro9ahB/view?usp=sharing", '_blank', 'noopener,noreferrer');
             }}>
             Resume
           </div>

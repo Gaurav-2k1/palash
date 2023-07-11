@@ -31,10 +31,10 @@ const ProjectCard = ({ id, company, url, detail }) => {
   return (
     <div className=' md:w-80  md:h-96 rounded-2xl py-4 px-3 bg-tertiary z-0 my-5'>
       <div className='w-full h-3/5 relative group'>
-        <div className='w-0 group-hover:w-full h-full absolute top-0 bg-secondary opacity-80 z-1 rounded-3xl grid place-items-center
+        <div className='w-0 group-hover:w-full h-full absolute top-0 bg-secondary opacity-90 z-1 rounded-3xl grid place-items-center
         delay-250 transition-all ease-linear'>
           <span className='text-[0px] text-white  group-hover:text-lg delay-250 transition-all'>
-            <FiExternalLink className='text-[0px] text-white group-hover:text-3xl cursor-pointer hover:text-black'
+            <FiExternalLink className='text-[0px] text-black group-hover:text-3xl cursor-pointer hover:text-black'
               onClick={() => {
                 router.push(`/Details/${id}`)
               }}
@@ -46,8 +46,8 @@ const ProjectCard = ({ id, company, url, detail }) => {
       </div>
 
       <div className='flex flex-col h-1/5 justify-between mt-5'>
-        <h2 className='text-lg font-semibold text-black'>{company}</h2>
-        <span className='text-sm text-black'>
+        <h2 className='text-lg font-semibold text-white'>{company}</h2>
+        <span className='text-sm text-white'>
           {detail.name}
         </span>
       </div>
