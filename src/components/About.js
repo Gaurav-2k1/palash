@@ -18,9 +18,7 @@ const About = () => {
             Power BI Developer
           </span> */}
           <span className='text-black md:text-base text-sm  w-full md:w-2/3 md:min-w-full h-min text-left px-2'>
-            I am  a skilled BI Developer with 5+ years of experience in the industry.I am  proficient in Power BI, SAP BO, Spotfire, and other BI tools.
-            I have a strong understanding of data modelling, DAX, and data visualization. And also experienced in gateway configuration and scheduling and
-            highly motivated and results-oriented individual with a proven track record of success. I am a  team player with excellent communication and problem-solving skills.
+            I am a skilled BI Developer with 5+ years of experience in the industry.I am proficient in Power BI, Tableau, SQL and other BI tools. I have a strong understanding of data modelling, DAX and data visualization. And also experienced in gateway configuration & scheduling and highly motivated and results-oriented individual with a proven track record of success. I am a team player with excellent communication and problem-solving skills
           </span>
           <div className='text-white bg-primary md:w-min w-full text-center py-2 px-4 rounded-lg hover:bg-slate-600 delay-50 transition-all cursor-pointer
             ' onClick={() => {

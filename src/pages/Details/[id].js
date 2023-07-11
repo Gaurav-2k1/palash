@@ -9,6 +9,7 @@ export async function getServerSideProps(context) {
     let param = context.query.id
     let data = await fetch(`http://pallavi-priya.vercel.app/api/Details/${param}`);
     let props = await data.json()
+
     return {
         props: { props }
     }

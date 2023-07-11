@@ -11,6 +11,7 @@ import auto from '../assets/techstack/platform/automate.jpg';
 import poweri from '../assets/techstack/platform/powerbi.webp';
 import powerbi from '../assets/techstack/tools/powerbitool.png';
 import dbveawer from '../assets/techstack/tools/dbveawer.png';
+import tableu from '../assets/techstack/tools/tableau.png';
 import dax from '../assets/techstack/tools/DAX.png';
 import editor from '../assets/techstack/tools/editor.png';
 import SSis from '../assets/techstack/tools/SSIS.png';
@@ -19,7 +20,7 @@ import sp from '../assets/techstack/cloud/sharepoint.jpg';
 import sapbo from '../assets/techstack/tools/sapbo.jpg';
 import spotfire from '../assets/techstack/tools/spotfire.jpg';
 import excel from '../assets/techstack/tools/msexcel.jpg';
-
+import datalake from '../assets/techstack/cloud/datalake.png'
 
 const stack = {
     Cloud: [
@@ -38,6 +39,10 @@ const stack = {
         {
             icon: power,
             name: " Power BI Service"
+        },
+        {
+            icon: datalake,
+            name: "Azure Datalake"
         }
     ],
     Databases: [
@@ -93,6 +98,10 @@ const stack = {
         {
             icon: powerbi,
             name: "Power BI"
+        },
+        {
+            icon: tableu,
+            name: "Tableu"
         },
         {
             icon: SSis,

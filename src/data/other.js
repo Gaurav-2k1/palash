@@ -4,18 +4,9 @@ export const detaildata = {
     certification: [
         {
             name: "Completed Microsoft Power BI certification DA -100 Power BI Data Analyst Associate on 28/03/2022.",
-            icon: power,
-            link: "https://www.credly.com/badges/dd5e7d40-6f0a-4660-a54c-ad1263dc07a9/whatsapp"
+            icon: da,
+            link: "https://www.credly.com/badges/1591eaf7-3de6-4bf7-bd8c-b718aaca01ee/whatsapp"
 
-        }, {
-            name: "1.Business Intelligence & Data/Business Analysis with Microsoft Power BI - BizticsCom King by Bill Singh"
-            , icon: da,
-            link: ""
-        },
-        {
-            name: ".Complete Introduction to Microsoft Power BI [2020 Edition] - By Ian Littlejohn"
-            , icon: power,
-            link: ""
         }
     ],
     responsibilities: [

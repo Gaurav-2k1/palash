@@ -59,7 +59,7 @@ const ReqBox = ({ name, title }) => {
                 name.map((data, i) => {
                     return (
                         <div key={i} className='flex flex-col text-xs md:text-lg my-2'>
-                            {i + 1})   {data}
+                        ⚫ {data}
                         </div>
                     )
                 })
