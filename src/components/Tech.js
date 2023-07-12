@@ -13,7 +13,7 @@ const Tech = () => {
             name: "Cloud Storage"
         },
         {
-            name: "language"
+            name: "Language"
         }
 
     ]
@@ -25,7 +25,7 @@ const Tech = () => {
             st.current = stack.Cloud;
         } else if (sel.current === "Databases") {
             st.current = stack.Databases;
-        } else if (sel.current === "language") {
+        } else if (sel.current === "Language") {
             st.current = stack.language
         }
         else if (sel.current === "Tools") {

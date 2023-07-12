@@ -6,30 +6,30 @@ import des from '../assets/techstack/cer/des.png'
 export const detaildata = {
     certification: [
         {
-            name: "Completed Power BI Data Analyst Associate certification (PL 300) on 29/10/2022",
+            name: "Microsoft Certified: Power BI Data Analyst Associate",
             icon: da,
             link: "https://www.credly.com/badges/70ddbab6-5fb3-4ae6-b1b2-dc96988a836a/whatsapp"
 
         },
         {
-            name: "Completed Microsoft Power BI certification (AZ 70-778 Analyzing and Visualizing Data with Microsoft Power BI) on 10/01/2021",
+            name: "Microsoft Certified: Azure Fundamentals",
             icon: aff,
             link: "https://www.credly.com/badges/03d2dc34-c71f-449e-83e7-5fd1d9803165/whatsapp"
 
         },
         {
-            name: "Completed Microsoft Azure Fundamentals certification (AZ-900) on 06/10/2020.",
+            name: "Microsoft Certified: Azure AI Fundamentals",
             icon: af,
             link: "https://www.credly.com/badges/78e66d18-7105-42d3-855f-d657524e962b/whatsapp"
 
         },
         {
-            name: "Completed Azure Data Fundamentals certification (DP 900) on 06/03/2022",
+            name: "Microsoft Certified: Azure Data Fundamentals",
             icon: adf,
             link: "https://www.credly.com/badges/64ce0694-3172-40a1-86cf-65f4c9169abf/whatsapp"
         },
         {
-            name: "Completed Business Intelligence & Data/Business Analysis Udemy training certification on Power BI.",
+            name: "Alteryx Designer Core Micro-Credential: General Knowledge",
             icon: des,
             link: "https://www.credly.com/badges/b0285255-49f7-4437-b279-26253db3d743/whatsapp"
 

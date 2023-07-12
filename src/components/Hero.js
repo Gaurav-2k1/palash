@@ -15,7 +15,7 @@ const Hero = () => {
                     <span className="md:text-3xl text-2xl text-white">Data Analyst</span>
                     <br />
                     <span className="text-lg text-white">
-                        To seek a challenging role in an IT sector where I can utilize my skills and knowledge efficiently for organizational growth and clients.
+                     Seeking a challenging role in an IT sector where I can utilize my skills and knowledge efficiently for organizational growth and clients.
                     </span>
                     <br />
                     <br />

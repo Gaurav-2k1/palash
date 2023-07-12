@@ -24,12 +24,12 @@ const ExpData =
         {
             company: "PricewaterhouseCoopers Accelerations Center, Bangalore",
             designation: "Senior Analyst",
-            duration: " June 2021 to Present"
+            duration: " Jun 2021 to Present"
         },
         {
             company: "Capgemini Ltd, Mumbai, Maharashtra",
             designation: "Consultant",
-            duration: "Jan 2020 to July 2021"
+            duration: "Jan 2020 to Jul 2021"
         },
         {
             company: "Majesco Solution India Ltd, Mumbai, Maharashtra",

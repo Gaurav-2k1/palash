@@ -18,7 +18,7 @@ const About = () => {
             Power BI Developer
           </span> */}
           <span className='text-black md:text-base text-sm  w-full md:w-2/3 md:min-w-full h-min text-left px-2'>
-            I am a highly experienced BI Developer with over 7 years of experience in the IT industry. I have a strong understanding of data analytics, ETL, and data warehousing concepts. I am proficient in Power BI, SSIS, Alteryx, and other BI tools. I am also skilled in SQL, DAX, and other data analysis languages.
+            I am a highly experienced BI Developer with over 7 years of experience in the IT industry. I have a strong understanding of data analytics, ETL and data warehousing concepts. I am proficient in Power BI, SSIS, Alteryx and other BI tools. I am also skilled in SQL, DAX and other data analysis languages.
 
             I am a highly motivated and results-oriented individual with a proven track record of success in delivering projects on time and within budget. I am also a team player and I am able to work effectively in a fast-paced environment.
 
