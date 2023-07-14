@@ -13,7 +13,7 @@ const projects = [
             Tools: ": Power BI Desktop, Alteryx, SSIS, SSMS, Oracle SQL Developer, Jira, Share Point",
             Database: "Oracle SQL Server",
             Language: "SQL, DAX, M-Query",
-            Cloud: "Power BI Service"
+            Cloud: "Power BI Service,SharePoint,Confluence"
         },
         Roles: [
             "Responsible for development of interactive reports as per requirement.",
@@ -34,7 +34,7 @@ const projects = [
             Tools: "SSIS, Power BI Desktop, SSMS",
             Database: "SQL Server",
             Language: "SQL/PLSQL",
-            Cloud: ""
+            Cloud: "Power BI Service,Share Point"
         },
         Roles: [
             "As ETL Developer designed and implemented three Use cases.",
@@ -52,7 +52,7 @@ const projects = [
             Tools: "SSIS, Power BI Desktop, SSMS",
             Database: "SQL Server",
             Language: "SQL/PLSQL",
-            Cloud: ""
+            Cloud: "Power BI Service,Share Point"
         },
         Roles: [
             "Analyze the requirement provided through client to calculate the Bulk Reserve for different Allocation Bases.(i.e.Stat, IBNR)",

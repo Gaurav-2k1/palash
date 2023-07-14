@@ -9,13 +9,13 @@ const ExpData =
         },
         {
             school: "Snatak College, Islampur",
-            date: "2010-2011",
+            date: "2008-2010",
             percentage: "64.8%",
             course: "Senior Secondary",
         },
         {
             school: "N.S.S High School, Islampur",
-            date: "2008-2009",
+            date: "2007-2008",
             percentage: "71%",
             course: "Higher Secondary",
         }
@@ -23,8 +23,8 @@ const ExpData =
     Work: [
         {
             company: "PricewaterhouseCoopers Accelerations Center, Bangalore",
-            designation: "Senior Analyst",
-            duration: " Jun 2021 to Present"
+            designation: "Senior Associate",
+            duration: " Jul 2021 to Present"
         },
         {
             company: "Capgemini Ltd, Mumbai, Maharashtra",

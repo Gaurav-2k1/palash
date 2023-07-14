@@ -2,7 +2,7 @@ import adf from '../assets/techstack/cer/azuredfun.png'
 import af from '../assets/techstack/cer/azurefun.png'
 import aff from '../assets/techstack/cer/azurefunn.png'
 import da from '../assets/techstack/cer/datanalyst.png'
-import des from '../assets/techstack/cer/des.png'
+import des from '../assets/techstack/cer/des.png'  
 export const detaildata = {
     certification: [
         {
