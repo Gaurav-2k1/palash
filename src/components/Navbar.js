@@ -59,7 +59,7 @@ const Navbar = () => {
                 </div>
                 <div className='hidden md:inline-block p-3 bg-red-600 rounded-3xl text-white font-semibold cursor-pointer hover:bg-red-800 delay-150 ease-in'
                     onClick={() => {
-                        window.open("https://drive.google.com/file/d/1i_pGpJZFXfLsxn-fjTlnkkz4zCzdIA4T/view?usp=sharing", '_blank', 'noopener,noreferrer');
+                        window.open("https://drive.google.com/file/d/1xXZyOjCi9xBoAb3i8w8nrAGANpro9ahB/view?usp=sharing", '_blank', 'noopener,noreferrer');
 
                     }}>
                     Download CV
